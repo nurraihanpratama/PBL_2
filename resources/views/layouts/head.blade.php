@@ -7,7 +7,7 @@
     <meta name="author" content="" />
     <title>LPH Polibatam</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="{{ asset('website/agency/assets')}}/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets') }}/img/lph-img.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->

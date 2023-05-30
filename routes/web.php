@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LoginLphController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +16,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//Route index Awal
 Route::get('/', function () {
     return view('index');
+});
+
+//Route Login
+Route::get('lph.log', [AuthController::class, 'index'])->name('lph.login');
+Route::post('login', [AuthController::class, 'login'])->name('login.post');
+
+//Dashboard Admin
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+
+
+Route::get('news', function () {
+    return view('news');
 });

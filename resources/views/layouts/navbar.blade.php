@@ -13,7 +13,7 @@
                 <li class="nav-item"><a class="nav-link dropdown-toggle" href="#services">Profile</a></li>
                 <li class="nav-item"><a class="nav-link" href="#team">Auditor Halal</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Pengaduan</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Berita</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{url ('news')}}">Berita</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
